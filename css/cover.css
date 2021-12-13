@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    vertical-align: bottom;
+}
+#img{
+    position: relative;
+    bottom: -280px;
+}

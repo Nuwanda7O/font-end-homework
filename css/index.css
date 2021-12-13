@@ -1,0 +1,46 @@
+main{
+    text-align: center;
+}
+.title{
+    margin: 0 auto;
+    width:190px;
+    font-size: 30px;
+    font-weight: 1000;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid powderblue;
+}
+.introText{
+    margin: 0 auto;
+    height: 500px;
+    width: 700px;
+    background-color: #c8fffc;
+    line-height: 2em;
+    margin-top: 20px;
+    text-align: left;
+    padding: 40px;
+    border:solid #c8fffc;
+    border-radius: 15%;
+}
+.introText p{
+    text-indent: 2em;
+}
+img{
+    margin-top: 50px;
+    width: 1000px;
+}
+p::first-letter{
+    font-size: 30px;
+}
+#control{
+    height: 150px;
+}
+
+.introText p a{
+    text-decoration: none;
+    position: relative;
+    /* left: 100px; */
+    color: black;
+    float: right;
+
+}

@@ -1,0 +1,46 @@
+table {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 300px;
+    z-index: -1;
+    border-top: 4px solid rgb(5, 114, 23);
+    border-bottom: 4px solid rgb(5, 114, 23);
+}
+#title{
+    position: relative;
+    left: 430px;
+}
+img{
+    width: 300px;
+}
+#backImg{
+    background-image: url(../img/leaves.png);
+    height: 1200px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.3;
+    z-index: -2;
+}
+table tr td{
+    text-align: center;
+}
+#move{
+    position: relative;
+    left: 170px;
+}
+.move1{
+    position: relative;
+    top:40px;
+}
+.move2{
+    position: relative;
+    left: 90px;
+}
+table tr :hover{
+    color: #15b8d7;
+}
+header{
+    z-index: 1;
+}

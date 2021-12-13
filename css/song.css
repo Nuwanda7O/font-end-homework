@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style-type: none;
+    color: #3a8bda;
+    height: 35px;
+    width: 300px;
+    font-size: 16px;
+    background-color: #80ff80;
+    text-align: center;
+    margin: 0 auto;
+}
+#main{
+    text-align: center;
+    margin-top: 50px;
+}
+/* .center{
+    margin: 0 auto;
+} */
+#catalogue {
+    width: 500px;
+    height: 60px;
+    color: #3a8bda;
+    text-align: center;
+    /* line-height: 30px; */
+    font-size: 30px;
+}
+#list{
+    text-align: center;
+}

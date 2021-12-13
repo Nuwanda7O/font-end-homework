@@ -1,0 +1,33 @@
+#warning {
+    color: #eee;
+    position: absolute;
+    left: 1000px;
+    top: 110px;
+}
+
+header {
+    z-index: 1;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.cards__item {
+    flex-basis: 28.9%;
+    height: 350px;
+    margin: 30px;
+    border-radius: 41px;
+    background: #ffffff;
+    box-shadow: inset 25px 25px 50px #cccccc,
+        inset -25px -25px 50px #ffffff;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
